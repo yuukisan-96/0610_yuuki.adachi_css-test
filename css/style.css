@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(7, 7, 134);
+    margin: 10px 10px;
+}
+
+.header__title {
+    font-size: 25px;
+}
+
+.header__nav {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    margin-right: 15px;
+
+}
+
+.main {
+    position: relative;
+    margin-top: 200px;
+}
+
+.main__img {
+    position: absolute;
+    right: 0;
+    top: -100px;
+    width: 50%;
+    z-index: 20;
+}
+
+.main__ttl {
+    position: absolute;
+    top: 195px;
+    font-size: 50px;
+    font: bold;
+    z-index: 10;
+}
+
+.main__box {
+    position: absolute;
+    top: 245px;
+    background-color: rgb(7, 7, 134);
+    width: 800px;
+    height: 150px;
+    z-index: 0;
+}
