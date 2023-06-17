@@ -38,7 +38,7 @@
 .main__ttl {
     position: absolute;
     top: 160px;
-    width: 30%;
+    font-size: 50px;
     font: bold;
     z-index: 10;
 }
@@ -47,7 +47,7 @@
     position: absolute;
     top: 220px;
     background-color: rgb(7, 7, 134);
-    width: 75%;
+    width: 75vw;
     height: 150px;
     z-index: 0;
 }
